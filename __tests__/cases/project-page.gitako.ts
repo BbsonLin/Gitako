@@ -1,3 +1,4 @@
+import 'expect-puppeteer'
 import { expectToFind } from '../utils'
 
 describe(`in Gitako project page`, () => {

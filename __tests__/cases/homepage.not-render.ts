@@ -1,3 +1,4 @@
+import 'expect-puppeteer'
 import { expectToNotFind } from '../utils'
 
 describe(`in GitHub homepage`, () => {

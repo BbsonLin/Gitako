@@ -2,6 +2,7 @@
  * Make sure some basic behaviors of puppeteer assertions
  */
 
+import 'expect-puppeteer'
 import { expectToFind, expectToNotFind } from '../utils'
 
 describe(`in random page`, () => {

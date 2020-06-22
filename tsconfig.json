@@ -3,14 +3,13 @@
     "moduleResolution": "Node",
     "module": "ESNext",
     "target": "ESNext",
-    "jsx": "react",
+    "jsx": "preserve",
     "strict": true,
     "lib": ["dom", "es2017.object", "es2016", "ES2020.String"],
-    "baseUrl": ".",
+    "baseUrl": "src",
     "outDir": "dist",
-    "paths": {
-      "*": ["src/*", "packages/*"]
-    }
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   },
   "include": ["src"]
 }
